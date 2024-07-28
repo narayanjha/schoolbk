@@ -1,0 +1,6 @@
+{
+  "version": "1",
+  "name": "School API - Backend",
+  "build": [{ "src": "index.js", "usr": "@vercel/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "/index.js" }]
+}
